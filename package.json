@@ -1,0 +1,23 @@
+{
+  "name": "e-pokemon",
+  "scripts": {
+    "start": "vite"
+  },
+  "version": "1.0.0",
+  "description": "E-commerce do Pokemon",
+  "main": "index.js",
+  "repository": "https://github.com/leoG-silva/ecommerce.git",
+  "author": "Leonardo Silva",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-router-dom": "^6.7.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.0.1",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.4"
+  }
+}
