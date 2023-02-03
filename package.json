@@ -5,17 +5,23 @@
   },
   "version": "1.0.0",
   "description": "E-commerce do Pokemon",
-  "main": "index.js",
+  "main": "main.tsx",
   "repository": "https://github.com/leoG-silva/ecommerce.git",
   "author": "Leonardo Silva",
   "license": "MIT",
+  "resolutions": {
+      "styled-components": "^5"
+  },
   "dependencies": {
     "react": "^18.2.0",
-    "react-router-dom": "^6.7.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0",
+    "styled-components": "^5.3.6"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
+    "@types/styled-components": "^5.1.26",
     "@vitejs/plugin-react": "^3.0.1",
     "typescript": "^4.9.4",
     "vite": "^4.0.4"
